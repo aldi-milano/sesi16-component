@@ -17,11 +17,11 @@ function Count () {
     }
 
     return (
-        <>
+        <div id="count">
             <button onClick={pengurangan}>-</button>            
-            <h3>{count}</h3>
+            <span>{count}</span>
             <button onClick={pertambahan}>+</button>            
-        </>
+        </div>
     )
 
 }
